@@ -9,7 +9,7 @@ export default class App extends React.Component {
     }
 
     async componentWillMount() {
-        let r = await fetch('http://localhost:3005/api/hello');
+        let r = await fetch('/api/hello');
         let name = await r.json();
         this.setState({ name })
     }
