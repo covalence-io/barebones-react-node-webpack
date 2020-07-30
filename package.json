@@ -2,7 +2,7 @@
   "name": "barebones-react-node-webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./client/index.jsx",
   "scripts": {
     "watch:build": "npx webpack -w",
     "watch:server": "nodemon dist/server.js",
